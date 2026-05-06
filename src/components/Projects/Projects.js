@@ -11,7 +11,11 @@ const Projects = () => {
             <div className="card">
               <img src={project.photo} alt={project.name} />
               <div className="row2">
-                <a href={project.link} target="_blank">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   {project.name}
                 </a>
                 <p>{project.year}</p>

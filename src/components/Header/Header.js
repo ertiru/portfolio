@@ -18,19 +18,29 @@ const Header = () => {
           <img src={logo} alt="logo" width="100px" height="50px" />
           <ul className="desktopnav">
             <li>
-              <a onClick={() => scrollToSection("home")}>Home</a>
+              <a href="" onClick={() => scrollToSection("home")}>
+                Home
+              </a>
             </li>
             <li>
-              <a onClick={() => scrollToSection("about")}>About me</a>
+              <a href="" onClick={() => scrollToSection("about")}>
+                About me
+              </a>
             </li>
             <li>
-              <a onClick={() => scrollToSection("projects")}>Projects</a>
+              <a href="" onClick={() => scrollToSection("projects")}>
+                Projects
+              </a>
             </li>
             <li>
-              <a onClick={() => scrollToSection("faq")}>FAQ</a>
+              <a href="" onClick={() => scrollToSection("faq")}>
+                FAQ
+              </a>
             </li>
             <li>
-              <a onClick={() => scrollToSection("contact")}>Contact me</a>
+              <a href="" onClick={() => scrollToSection("contact")}>
+                Contact me
+              </a>
             </li>
           </ul>
           <button>Contact me on Whatsapp</button>

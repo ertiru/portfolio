@@ -1,6 +1,5 @@
 import React from "react";
 import AccItem from "./AccItem";
-import { useState } from "react";
 
 const FAQ = () => {
   return (

@@ -22,6 +22,7 @@ const MySkills = () => {
                 src={icon}
                 width="70px"
                 height="70px"
+                alt="icon"
                 style={{ marginRight: "100px" }}
               />
             ))}

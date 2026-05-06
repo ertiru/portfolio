@@ -17,7 +17,7 @@ const Banner = () => {
         </p>
         <div className="row">
           <button>
-            Projects <img src={world} width="15px" height="15px" />
+            Projects <img src={world} alt="world" width="15px" height="15px" />
           </button>
           <button>Learn more</button>
         </div>
