@@ -38,7 +38,15 @@ const Header = () => {
               <span onClick={() => scrollToSection("contact")}>Contact me</span>
             </li>
           </ul>
-          <button>Contact me on Whatsapp</button>
+          <button>
+            <a
+              href="https://wa.me/38344355032"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact me on Whatsapp
+            </a>
+          </button>
         </div>
       </div>
 

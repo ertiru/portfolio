@@ -2,6 +2,13 @@ import React from "react";
 import world from "../../assets/world.png";
 
 const Banner = () => {
+  const scrollToSection = (id) => {
+    document.getElementById("menuCheckbox").checked = false;
+    document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <div className="banner">
       <span className="bluri"></span>
@@ -16,10 +23,10 @@ const Banner = () => {
           interfaces.
         </p>
         <div className="row">
-          <button>
+          <button onClick={() => scrollToSection("projects")}>
             Projects <img src={world} alt="world" width="15px" height="15px" />
           </button>
-          <button>Learn more</button>
+          <button onClick={() => scrollToSection("about")}>Learn more</button>
         </div>
       </div>
     </div>

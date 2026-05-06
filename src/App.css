@@ -51,10 +51,14 @@
   padding: 10px 20px;
   border-radius: 15px;
   background-color: black;
-  color: white;
   border: 1.5px solid #333333;
 }
-
+.header button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Syne";
+  font-size: 15px;
+}
 .banner {
   background-color: black;
   position: relative;
@@ -436,7 +440,13 @@
   text-decoration: none;
   color: black !important;
 }
+.menuToggle li:last-child a {
+  font-size: 20px;
+  margin-top: 30px;
 
+  text-decoration: none;
+  color: black;
+}
 .menuToggle span:first-child {
   transform-origin: 0% 0%;
 }

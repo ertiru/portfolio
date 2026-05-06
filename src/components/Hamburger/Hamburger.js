@@ -35,6 +35,15 @@ const Hamburger = () => {
             <li>
               <Link onClick={() => scrollToSection("contact")}>Contact</Link>
             </li>
+            <li>
+              <a
+                href="https://wa.me/38344355032"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact me on Whatsapp
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
