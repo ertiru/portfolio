@@ -1,5 +1,4 @@
 import React from "react";
-
 import logo from "../../assets/logo.png";
 import Hamburger from "../Hamburger/Hamburger";
 
@@ -18,29 +17,19 @@ const Header = () => {
           <img src={logo} alt="logo" width="100px" height="50px" />
           <ul className="desktopnav">
             <li>
-              <a href="" onClick={() => scrollToSection("home")}>
-                Home
-              </a>
+              <span onClick={() => scrollToSection("home")}>Home</span>
             </li>
             <li>
-              <a href="" onClick={() => scrollToSection("about")}>
-                About me
-              </a>
+              <span onClick={() => scrollToSection("about")}>About me</span>
             </li>
             <li>
-              <a href="" onClick={() => scrollToSection("projects")}>
-                Projects
-              </a>
+              <span onClick={() => scrollToSection("projects")}>Projects</span>
             </li>
             <li>
-              <a href="" onClick={() => scrollToSection("faq")}>
-                FAQ
-              </a>
+              <span onClick={() => scrollToSection("faq")}>FAQ</span>
             </li>
             <li>
-              <a href="" onClick={() => scrollToSection("contact")}>
-                Contact me
-              </a>
+              <span onClick={() => scrollToSection("contact")}>Contact me</span>
             </li>
           </ul>
           <button>Contact me on Whatsapp</button>
