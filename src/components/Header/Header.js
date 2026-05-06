@@ -14,7 +14,13 @@ const Header = () => {
     <>
       <div className="header" id="home">
         <div className="container header-inner">
-          <img src={logo} alt="logo" width="100px" height="50px" />
+          <img
+            src={logo}
+            alt="logo"
+            width="100px"
+            height="50px"
+            className="logo"
+          />
           <ul className="desktopnav">
             <li>
               <span onClick={() => scrollToSection("home")}>Home</span>
